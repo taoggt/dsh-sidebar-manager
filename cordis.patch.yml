@@ -1,0 +1,5 @@
+# 本插件的 bundle 补丁层：把一行插件条目插进 profile 的 Cordis 组合。
+# 安装：dsh plugin --profile <profile> add file:<本目录>
+- insert:
+    - id: ui-sidebar-manager
+      name: 'dsh-sidebar-manager'

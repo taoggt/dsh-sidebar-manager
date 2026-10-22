@@ -1,0 +1,15 @@
+# 依赖与构建产物
+node_modules/
+
+# 安装脚本产生的备份（profile 里的 package.json / pnpm-lock.yaml）
+*.bak
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/

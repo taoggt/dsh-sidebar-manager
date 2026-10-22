@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# 产物与源码一视同仁，避免 Windows 上出现 CRLF 噪声
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
